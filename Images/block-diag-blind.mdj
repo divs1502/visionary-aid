@@ -1,0 +1,474 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "UMLActivity",
+			"_id": "AAAAAAGEgJKMXBFNY+s=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Activity1",
+			"ownedElements": [
+				{
+					"_type": "UMLActivityDiagram",
+					"_id": "AAAAAAGEgJKMXRFOklg=",
+					"_parent": {
+						"$ref": "AAAAAAGEgJKMXBFNY+s="
+					},
+					"name": "ActivityDiagram1"
+				}
+			],
+			"nodes": [
+				{
+					"_type": "UMLAction",
+					"_id": "AAAAAAGEgJKibBFSitk=",
+					"_parent": {
+						"$ref": "AAAAAAGEgJKMXBFNY+s="
+					},
+					"name": "Camera"
+				},
+				{
+					"_type": "UMLAction",
+					"_id": "AAAAAAGEgJOqRxFycCQ=",
+					"_parent": {
+						"$ref": "AAAAAAGEgJKMXBFNY+s="
+					},
+					"name": "Action1"
+				}
+			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGEgJRpFhHG/Rw=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model1",
+			"ownedElements": [
+				{
+					"_type": "UMLObjectDiagram",
+					"_id": "AAAAAAGEgJRpFhHHRGo=",
+					"_parent": {
+						"$ref": "AAAAAAGEgJRpFhHG/Rw="
+					},
+					"name": "ObjectDiagram1"
+				},
+				{
+					"_type": "UMLObject",
+					"_id": "AAAAAAGEgJR9tRHLuuE=",
+					"_parent": {
+						"$ref": "AAAAAAGEgJRpFhHG/Rw="
+					},
+					"name": "Object1"
+				}
+			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGEgJTzUhH7OTs=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model2",
+			"ownedElements": [
+				{
+					"_type": "UMLComponentDiagram",
+					"_id": "AAAAAAGEgJTzUhH89Qo=",
+					"_parent": {
+						"$ref": "AAAAAAGEgJTzUhH7OTs="
+					},
+					"name": "ComponentDiagram1"
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "AAAAAAGEgJUNSBIA2oA=",
+					"_parent": {
+						"$ref": "AAAAAAGEgJTzUhH7OTs="
+					},
+					"name": "Component1"
+				}
+			]
+		},
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAGEgJWcYRJBtGA=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Collaboration1",
+			"ownedElements": [
+				{
+					"_type": "UMLInteraction",
+					"_id": "AAAAAAGEgJWcYRJCMZ8=",
+					"_parent": {
+						"$ref": "AAAAAAGEgJWcYRJBtGA="
+					},
+					"name": "Interaction1",
+					"ownedElements": [
+						{
+							"_type": "UMLSequenceDiagram",
+							"_id": "AAAAAAGEgJWcYRJDK2c=",
+							"_parent": {
+								"$ref": "AAAAAAGEgJWcYRJCMZ8="
+							},
+							"name": "SequenceDiagram1",
+							"ownedViews": [
+								{
+									"_type": "UMLFrameView",
+									"_id": "AAAAAAGEgJWcYRJE8P0=",
+									"_parent": {
+										"$ref": "AAAAAAGEgJWcYRJDK2c="
+									},
+									"model": {
+										"$ref": "AAAAAAGEgJWcYRJDK2c="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGEgJWcYRJFRiI=",
+											"_parent": {
+												"$ref": "AAAAAAGEgJWcYRJE8P0="
+											},
+											"font": "Arial;13;0",
+											"left": 32.72998046875,
+											"top": 13,
+											"width": 115.9052734375,
+											"height": 13,
+											"text": "SequenceDiagram1"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGEgJWcYRJG83k=",
+											"_parent": {
+												"$ref": "AAAAAAGEgJWcYRJE8P0="
+											},
+											"font": "Arial;13;1",
+											"left": 13,
+											"top": 13,
+											"width": 14.72998046875,
+											"height": 13,
+											"text": "sd"
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 8,
+									"top": 8,
+									"width": 692,
+									"height": 592,
+									"nameLabel": {
+										"$ref": "AAAAAAGEgJWcYRJFRiI="
+									},
+									"frameTypeLabel": {
+										"$ref": "AAAAAAGEgJWcYRJG83k="
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGEgJmq/xLU3cw=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model3",
+			"ownedElements": [
+				{
+					"_type": "UMLInformationFlowDiagram",
+					"_id": "AAAAAAGEgJmq/xLV9lw=",
+					"_parent": {
+						"$ref": "AAAAAAGEgJmq/xLU3cw="
+					},
+					"name": "InformationFlowDiagram1"
+				},
+				{
+					"_type": "UMLInformationItem",
+					"_id": "AAAAAAGEgJm36BLZTy8=",
+					"_parent": {
+						"$ref": "AAAAAAGEgJmq/xLU3cw="
+					},
+					"name": "InformationItem1"
+				}
+			]
+		},
+		{
+			"_type": "UMLStateMachine",
+			"_id": "AAAAAAGEgJndzxMamW0=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "StateMachine1",
+			"ownedElements": [
+				{
+					"_type": "UMLStatechartDiagram",
+					"_id": "AAAAAAGEgJndzxMc4sw=",
+					"_parent": {
+						"$ref": "AAAAAAGEgJndzxMamW0="
+					},
+					"name": "StatechartDiagram1"
+				}
+			],
+			"regions": [
+				{
+					"_type": "UMLRegion",
+					"_id": "AAAAAAGEgJndzxMbORU=",
+					"_parent": {
+						"$ref": "AAAAAAGEgJndzxMamW0="
+					},
+					"vertices": [
+						{
+							"_type": "UMLState",
+							"_id": "AAAAAAGEgJno1hMhcPA=",
+							"_parent": {
+								"$ref": "AAAAAAGEgJndzxMbORU="
+							},
+							"name": "State1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAGEgJoYYBNcLFY=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Collaboration1",
+			"ownedElements": [
+				{
+					"_type": "UMLCompositeStructureDiagram",
+					"_id": "AAAAAAGEgJoYYBNd/L4=",
+					"_parent": {
+						"$ref": "AAAAAAGEgJoYYBNcLFY="
+					},
+					"name": "Composite Structures1"
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAGEgJpddhNhbB0=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel1",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAGEgJpddhNiTFg=",
+					"_parent": {
+						"$ref": "AAAAAAGEgJpddhNhbB0="
+					},
+					"name": "DFDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGEgJpsCRNoClE=",
+							"_parent": {
+								"$ref": "AAAAAAGEgJpddhNiTFg="
+							},
+							"model": {
+								"$ref": "AAAAAAGEgJpsCBNmBH4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGEgJpsCRNuvK4=",
+									"_parent": {
+										"$ref": "AAAAAAGEgJpsCRNoClE="
+									},
+									"font": "Arial;13;0",
+									"left": 170,
+									"top": 165,
+									"width": 508,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGEgJpsCRNpOqA=",
+									"_parent": {
+										"$ref": "AAAAAAGEgJpsCRNoClE="
+									},
+									"font": "Arial;13;0",
+									"left": 170,
+									"top": 170,
+									"width": 508,
+									"height": 13,
+									"text": "ExternalEntity1",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGEgJpsCRNqMgk=",
+									"_parent": {
+										"$ref": "AAAAAAGEgJpsCRNoClE="
+									},
+									"font": "Arial;13;0",
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 160,
+							"top": 160,
+							"width": 528,
+							"height": 264,
+							"nameLabel": {
+								"$ref": "AAAAAAGEgJpsCRNpOqA="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGEgJp/FRNzwaI=",
+							"_parent": {
+								"$ref": "AAAAAAGEgJpddhNiTFg="
+							},
+							"model": {
+								"$ref": "AAAAAAGEgJp/FRNxZYY="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGEgJp/FRN0aTY=",
+									"_parent": {
+										"$ref": "AAAAAAGEgJp/FRNzwaI="
+									},
+									"font": "Arial;13;0",
+									"left": 170,
+									"top": 525,
+									"width": 54.18994140625,
+									"height": 13,
+									"text": "Process1",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGEgJp/FRN1pxI=",
+									"_parent": {
+										"$ref": "AAAAAAGEgJp/FRNzwaI="
+									},
+									"font": "Arial;13;0",
+									"left": 170,
+									"top": 498,
+									"width": 54.18994140625,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 160,
+							"top": 493,
+							"width": 74.18994140625,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGEgJp/FRN0aTY="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGEgJp/FRN1pxI="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGEgJp/IRN+dic=",
+							"_parent": {
+								"$ref": "AAAAAAGEgJpddhNiTFg="
+							},
+							"model": {
+								"$ref": "AAAAAAGEgJp/IRN8agU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGEgJp/IRN/sY8=",
+									"_parent": {
+										"$ref": "AAAAAAGEgJp/IRN+dic="
+									},
+									"model": {
+										"$ref": "AAAAAAGEgJp/IRN8agU="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 291,
+									"top": 502,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGEgJp/IRN+dic="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGEgJp/FRNzwaI="
+							},
+							"tail": {
+								"$ref": "AAAAAAGEgJpsCRNoClE="
+							},
+							"lineStyle": 2,
+							"points": "292:423;292:493;233:493",
+							"nameLabel": {
+								"$ref": "AAAAAAGEgJp/IRN/sY8="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGEgJpsCBNmBH4=",
+					"_parent": {
+						"$ref": "AAAAAAGEgJpddhNhbB0="
+					},
+					"name": "ExternalEntity1",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGEgJp/IRN8agU=",
+							"_parent": {
+								"$ref": "AAAAAAGEgJpsCBNmBH4="
+							},
+							"source": {
+								"$ref": "AAAAAAGEgJpsCBNmBH4="
+							},
+							"target": {
+								"$ref": "AAAAAAGEgJp/FRNxZYY="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGEgJp/FRNxZYY=",
+					"_parent": {
+						"$ref": "AAAAAAGEgJpddhNhbB0="
+					},
+					"name": "Process1"
+				}
+			]
+		}
+	]
+}
